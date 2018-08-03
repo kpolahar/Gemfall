@@ -1,0 +1,317 @@
+/* ---------- General ---------- */
+body
+{ padding: 0;
+  margin:  0; }
+
+#banner
+{ position:        absolute;
+  width:           726px;
+  height:          88px;
+  overflow:        hidden;
+  border:          1px solid black;
+  background:      url('assets/su_sky_728x90.svg');
+  background-size: 728px 90px; }
+
+#logo
+{ position: absolute;
+  cursor:   pointer;
+  left:     259px;
+  top:      5px;
+  height:   80px;
+  width:    auto;
+  z-index:  50; }
+
+/*#disclaimer
+{ position:  absolute;
+  left:      283px;
+  bottom:    4px;
+  font-size: 9px; }*/
+
+/* ---------- Sparklies ---------- */
+#stars
+{ position: absolute;
+  opacity:  0;
+  z-index:  50; }
+
+.star
+{ position: absolute; }
+
+#star1
+{ height: 15px;
+  width:  auto;
+  top:    0px;
+  left:   7px; }
+
+#star2
+{ height: 12px;
+  width:  auto;
+  top:    9px;
+  left:   0px; }
+
+#star3
+{ height: 8px;
+  width:  auto;
+  top:    18px;
+  left:   7px; }
+
+/* ---------- Shapes ---------- */
+.gem
+{ position: absolute; }
+
+.round
+{ width:  45px;
+  height: auto; }
+
+.oval
+{ width:  35px;
+  height: auto; }
+
+.teardrop
+{ width:  37px;
+  height: auto; }
+
+.square_diamond
+{ width:  53px;
+  height: auto; }
+
+.oblong_diamond
+{ width:  40px;
+  height: auto; }
+
+.narrow
+{ width:  35px;
+  height: auto; }
+
+.triangular
+{ width:  65px;
+  height: auto; }
+
+.rectangular
+{ width:  50px;
+  height: auto; }
+
+/* ---------- Gems ---------- */
+#gem_rose
+{ top:               53px;
+  left:              483px;
+  z-index:           0;
+  -ms-transform:     rotate(75deg);
+  -webkit-transform: rotate(75deg);
+  transform:         rotate(75deg); }
+
+#gem_amethyst
+{ top:               -8px;
+  left:              67px;
+  z-index:           1;
+  -ms-transform:     rotate(-20deg);
+  -webkit-transform: rotate(-20deg);
+  transform:         rotate(-20deg); }
+
+#gem_pearl
+{ top:     -8px;
+  left:    563px;
+  z-index: 2; }
+
+#gem_garnet_ruby
+{ top:               59px;
+  left:              524px;
+  z-index:           3;
+  -ms-transform:     rotate(-107deg);
+  -webkit-transform: rotate(-107deg);
+  transform:         rotate(-107deg);}
+
+#gem_garnet_sapphire
+{ top:               61px;
+  left:              206px;
+  z-index:           3;
+  -ms-transform:     rotate(39deg);
+  -webkit-transform: rotate(39deg);
+  transform:         rotate(39deg); }
+
+#gem_ruby
+{ top:               52px;
+  left:              62px;
+  z-index:           7;
+  -ms-transform:     rotate(-22deg);
+  -webkit-transform: rotate(-22deg);
+  transform:         rotate(-22deg); }
+
+#gem_sapphire
+{ top:               -8px;
+  left:              596px;
+  z-index:           2;
+  -ms-transform:     rotate(-97deg);
+  -webkit-transform: rotate(-97deg);
+  transform:         rotate(-97deg); }
+
+#gem_peridot
+{ top:     30px;
+  left:    520px;
+  z-index: 5; }
+
+#gem_lapis
+{ top:     41px;
+  left:    637px;
+  z-index: 6; }
+
+#gem_jasper
+{ top:     4px;
+  left:    24px;
+  z-index: 6; }
+
+#gem_bismuth
+{ top:     29px;
+  left:    121px;
+  z-index: 6; }
+
+#gem_yellow_pearl
+{ top:               -2px;
+  left:              109px;
+  z-index:           1;
+  -ms-transform:     rotate(20deg);
+  -webkit-transform: rotate(20deg);
+  transform:         rotate(20deg); }
+
+#gem_yellow_diamond
+{ top:     17px;
+  left:    609px;
+  z-index: 4; }
+
+#gem_blue_pearl
+{ top:               46px;
+  left:              695px;
+  z-index:           4;
+  -ms-transform:     rotate(40deg);
+  -webkit-transform: rotate(40deg);
+  transform:         rotate(40deg); }
+
+#gem_blue_diamond
+{ top:     9px;
+  left:    162px;
+  z-index: 5; }
+
+#gem_opal_pearl
+{ top:     50px;
+  left:    179px;
+  z-index: 5; }
+
+#gem_opal_amethyst
+{ top:               -1px;
+  left:              639px;
+  z-index:           1;
+  -ms-transform:     rotate(-7deg);
+  -webkit-transform: rotate(-7deg);
+  transform:         rotate(-7deg); }
+
+#gem_sugilite_ruby
+{ top:               -5px;
+  left:              523px;
+  z-index:           3;
+  -ms-transform:     rotate(-23deg);
+  -webkit-transform: rotate(-23deg);
+  transform:         rotate(-23deg); }
+
+#gem_sugilite_sapphire
+{ top:               54px;
+  left:              100px;
+  z-index:           6;
+  -ms-transform:     rotate(72deg);
+  -webkit-transform: rotate(72deg);
+  transform:         rotate(72deg); }
+
+#gem_sugilite_amethyst
+{ top:               24px;
+  left:              660px;
+  z-index:           2;
+  -ms-transform:     rotate(137deg);
+  -webkit-transform: rotate(137deg);
+  transform:         rotate(137deg); }
+
+#gem_rainbow_quartz_rose
+{ top:               55px;
+  left:              23px;
+  z-index:           7;
+  -ms-transform:     rotate(-16deg);
+  -webkit-transform: rotate(-16deg);
+  transform:         rotate(-16deg); }
+
+#gem_rainbow_quartz_pearl
+{ top:     0px;
+  left:    685px;
+  z-index: 1; }
+
+#gem_sardonyx_pearl
+{ top:     12px;
+  left:    -3px;
+  z-index: 2; }
+
+#gem_sardonyx_ruby
+{ top:               61px;
+  left:              662px;
+  z-index:           5;
+  -ms-transform:     rotate(-12deg);
+  -webkit-transform: rotate(-12deg);
+  transform:         rotate(-12deg); }
+
+#gem_sardonyx_sapphire
+{ top:               56px;
+  left:              139px;
+  z-index:           5;
+  -ms-transform:     rotate(254deg);
+  -webkit-transform: rotate(254deg);
+  transform:         rotate(254deg); }
+
+#gem_smoky_quartz_rose
+{ top:               23px;
+  left:              579px;
+  z-index:           3;
+  -ms-transform:     rotate(241deg);
+  -webkit-transform: rotate(241deg);
+  transform:         rotate(241deg); }
+
+#gem_smoky_quartz_amethyst
+{ top:               22px;
+  left:              46px;
+  z-index:           4;
+  -ms-transform:     rotate(110deg);
+  -webkit-transform: rotate(110deg);
+  transform:         rotate(110deg); }
+
+#gem_alexandrite_ruby
+{ top:               24px;
+  left:              195px;
+  z-index:           0;
+  -ms-transform:     rotate(300deg);
+  -webkit-transform: rotate(300deg);
+  transform:         rotate(300deg); }
+
+#gem_alexandrite_sapphire
+{ top:               55px;
+  left:              593px;
+  z-index:           5;
+  -ms-transform:     rotate(75deg);
+  -webkit-transform: rotate(75deg);
+  transform:         rotate(75deg); }
+
+#gem_alexandrite_pearl
+{ top:     48px;
+  left:    562px;
+  z-index: 5; }
+
+#gem_alexandrite_amethyst
+{ top:               52px;
+  left:              -16px;
+  z-index:           4;
+  -ms-transform:     rotate(-15deg);
+  -webkit-transform: rotate(-15deg);
+  transform:         rotate(-15deg); }
+
+#gem_malachite_lapis
+{ top:     10px;
+  left:    83px;
+  z-index: 6; }
+
+#gem_malachite_jasper
+{ top:     11px;
+  left:    501px;
+  z-index: 5; }
