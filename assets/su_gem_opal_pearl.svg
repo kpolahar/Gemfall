@@ -1,0 +1,11 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 765">
+    <ellipse style="fill: #d1ffff;"
+             cx="250" cy="382.5"
+             rx="250" ry="382.5"/>
+    <ellipse style="fill: #ffffeb;"
+             cx="240" cy="355"
+             rx="187.5" ry="286.9"/>
+    <path style="fill: #fee8ea;"
+          d="M303.5,688.5c36.7-41.9,73.4-83.8,110-125.7c-50.1-30.1-100.3-60.3-150.4-90.4C276.6,544.5,290.1,616.5,303.5,688.5z"/>
+</svg>

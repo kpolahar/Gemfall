@@ -1,0 +1,17 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 725 500">
+    <rect style="fill: #a27da8;"
+          width="725" height="500"/>
+    <rect style="fill: #f993d7;"
+          x="72.5" y="60"
+          width="580" height="380"/>
+    <rect style="fill: #58feff;"
+          x="132.5" y="101.4"
+          width="460" height="297.2"/>
+    <rect style="fill: #97ffb9;"
+          x="182.5" y="135.9"
+          width="360" height="228.3"/>
+    <rect style="fill: #edf4b6;"
+          x="222.5" y="163.4"
+          width="280" height="173.1"/>
+</svg>

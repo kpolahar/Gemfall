@@ -1,0 +1,7 @@
+<svg xmlns="http://www.w3.org/2000/svg"
+     viewBox="0 0 500 500">
+    <circle style="fill: #f1f5d4;"
+            cx="250" cy="250" r="250"/>
+    <circle style="fill: #fafcec;"
+            cx="235" cy="225" r="187.5"/>
+</svg>
