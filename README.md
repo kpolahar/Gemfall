@@ -22,7 +22,7 @@ Please note, you may need to disable your browser's ad blocker in order to view 
 project, as it is a banner ad, and your popup blocker will likely recognize it as such.
 
 * Download the source files
-* Gemfall folder whereever you would like it on your computer
+* Place the Gemfall folder wherever you would like it on your computer
 * Disable your popup blocker
 * Open 'gemfall.html' in your favorite browser
 * Enjoy ^_^
